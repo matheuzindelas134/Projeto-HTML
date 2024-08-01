@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Matheus Rodrigues Farias</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#courses">Cursos</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="curriculum.pdf" download>Curriculum</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about">
+                <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/19/UP1112-CUSA06917_00-AV00000000000101/image?w=320&h=320&bg_color=000000&opacity=100&_version=00_09_000" alt="Foto ou Avatar">
+                <p>Sou um profissional dedicado com experiência em desenvolvimento Front-end. E estou sempre a procura de oportunidades para meu crescimento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Cursos</h2>
+            <ul>
+                <li>
+                    <h3>HTML  CSS</h3>
+                    <img width="290px" src="https://hermes.dio.me/articles/cover/9771699c-9db6-41fc-830e-01640308091d.png" alt="">
+                    <p></p>
+                </li>
+                <li>
+                    <h3>JAVA SCRIPT </h3>
+                    <img width="210px"  src="https://bognarjunior.wordpress.com/wp-content/uploads/2018/01/1crcyaithv7aiqh1z93v99q.png" alt="">
+                    <p>Ultiziando Java Script para fazer toda a parte funcional de um site.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img width="310px" src="https://www.shutterstock.com/shutterstock/photos/2052894734/display_1500/stock-vector-quiz-and-question-marks-trivia-night-quiz-symbol-neon-sign-night-online-game-with-questions-2052894734.jpg" alt="Projeto 1">
+                    <h3>Projeto 1 - jogo do quiz</h3>
+                    <p>joguinho de quiz com algumas perguntas.</p>
+                    <a href="https://github.com/matheuzindelas134/Pova-quis-.git" class="btn">Mais Detalhes</a>
+                </div>
+                <div class="project">
+                    <img src="https://img.freepik.com/vetores-gratis/biblioteca-interior-sala-vazia-para-ler-com-livros-nas-prateleiras-de-madeira_33099-1722.jpg" alt="Projeto 2">
+                    <h3>Projeto 2 - Biblioteca</h3>
+                    <p>Um menu interativo/Sistema para uma biblioteca.</p>
+                    <a href="https://github.com/matheuzindelas134/biblioteca-projeto.git" class="btn">Mais Detalhes</a>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mateus Farias . Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/_mateusfariasx/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
